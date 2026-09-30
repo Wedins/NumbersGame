@@ -21,7 +21,7 @@
            
                 int guessNumber = Convert.ToInt32(Console.ReadLine()); 
                 
-                if (guesses > 3) // Om användaren gissar fel 5 gånger körs det här. Eftersom index börjar räkna från 0 sätter vi if statement på >3.
+                if (guesses >= 5) // Om användaren gissar fel 5 gånger körs det här.
                 {
                     Console.WriteLine("Tyvärr, du lyckades inte gissa talet på fem försök!");
                     Console.WriteLine("Vill du försöka igen? (Y/N)");
